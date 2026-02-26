@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  /* Aquí definimos tus colores corporativos */
+  --color-brand-navy: #0c1e4c;
+  --color-brand-green: #00db90;
+  --color-brand-light: #F3F4F6;
+}
+
+/* Opcional: Un fondo general suave para toda tu página */
+body {
+  background-color: var(--color-brand-light);
+  color: var(--color-brand-navy);
+}
